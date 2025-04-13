@@ -32,7 +32,7 @@ jobs:
 
     - name: Push docker image
       run: |
-        docker push juancochero/graphql:0.0.1 .
+        docker push juancochero/graphql:0.0.1
     
 #    - name: Build the Docker image
 #      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
